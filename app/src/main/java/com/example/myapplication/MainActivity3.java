@@ -1,28 +1,22 @@
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Adapter;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
 import java.text.NumberFormat;
-import java.util.ArrayList;
-import java.util.Map;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main3);
     }
-
     int price = 1000;
 
     public void submitOrder(View View) {
@@ -55,8 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void back (View View){
-        Intent back = new Intent(MainActivity.this, FirstActivity.class);
+        Intent back = new Intent(MainActivity3.this, FirstActivity.class);
         startActivity(back);
     }
-
 }

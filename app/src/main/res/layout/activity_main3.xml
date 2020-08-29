@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    tools:context=".MainActivity3">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -34,7 +33,7 @@
                     android:textSize="25sp"
                     android:background="@drawable/border"
                     android:textColor="#2962ff"
-                    android:text="Coral Sea Aqua Club Resort"/>
+                    android:text="Hotel Name"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -43,7 +42,7 @@
                     android:paddingLeft="15dp"
                     android:textSize="20sp"
                     android:textColor="@android:color/black"
-                    android:text="يقع Coral Sea Aqua Club Resort في شرم الشيخ، ويوفر مكان إقامة مع مركز للياقة البدنية وحديقة وتراس، كما يبعد مكان الإقامة هذا مسافة قصيرة من معالم الجذب السياحية مثل المركز الدولي للمؤتمرات - فنادق جولي فيل وكاتدرائية ذا هيفينلي، ويمكن للضيوف احتساء مشروب في البار."/>
+                    android:text="يقع Hotel Name في ...."/>
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -91,116 +90,116 @@
                     android:text="3 restaurants" />
 
                 <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                tools:context=".MainActivity"
-                android:orientation="horizontal">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/TV"
-                    android:paddingLeft="24dp"
-                    android:textSize="20sp"
-                    android:textColor="@android:color/black"
-                    android:text="TV in each room  " />
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/TVpicture"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/ic_baseline_tv_24"/>
-            </LinearLayout>
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:context=".MainActivity"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/TV"
+                        android:paddingLeft="24dp"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/black"
+                        android:text="TV in each room  " />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/TVpicture"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_baseline_tv_24"/>
+                </LinearLayout>
 
-             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                tools:context=".MainActivity"
-                android:orientation="horizontal">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/WiFi"
-                    android:paddingLeft="24dp"
-                    android:textSize="20sp"
-                    android:textColor="@android:color/black"
-                    android:text="Free WiFi  " />
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/WiFipicture"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/ic_baseline_wifi_24" />
-             </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:context=".MainActivity"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/WiFi"
+                        android:paddingLeft="24dp"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/black"
+                        android:text="Free WiFi  " />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/WiFipicture"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_baseline_wifi_24" />
+                </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                tools:context=".MainActivity"
-                android:orientation="horizontal">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/Food"
-                    android:paddingLeft="24dp"
-                    android:textSize="20sp"
-                    android:textColor="@android:color/black"
-                    android:text="Food &amp; Drinks  " />
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/Foodpicture"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/ic_baseline_fastfood_24"/>
-            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:context=".MainActivity"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Food"
+                        android:paddingLeft="24dp"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/black"
+                        android:text="Food &amp; Drinks  " />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Foodpicture"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_baseline_fastfood_24"/>
+                </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                tools:context=".MainActivity"
-                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:context=".MainActivity"
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/parking"
-                    android:paddingLeft="24dp"
-                    android:text="Free parking  "
-                    android:textColor="@android:color/black"
-                    android:textSize="20sp" />
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/parkingpicture"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/ic_baseline_directions_car_24"/>
-            </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/parking"
+                        android:paddingLeft="24dp"
+                        android:text="Free parking  "
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/parkingpicture"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_baseline_directions_car_24"/>
+                </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                tools:context=".MainActivity"
-                android:orientation="horizontal">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/Bed"
-                    android:paddingLeft="24dp"
-                    android:text="2 Beds  "
-                    android:textColor="@android:color/black"
-                    android:textSize="20sp" />
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/Bedpicture1"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/ic_baseline_single_bed_24"/>
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/Bedpicture2"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/ic_baseline_single_bed_24"/>
-            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:context=".MainActivity"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Bed"
+                        android:paddingLeft="24dp"
+                        android:text="2 Beds  "
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Bedpicture1"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_baseline_single_bed_24"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Bedpicture2"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_baseline_single_bed_24"/>
+                </LinearLayout>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -269,4 +268,4 @@
             </LinearLayout>
         </RelativeLayout>
     </ScrollView>
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
